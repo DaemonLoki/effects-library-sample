@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "effects-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DaemonLoki/effects-library",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9a08d53ed7ca1f3c73378c9f8d7c085c8fbeb6d1"
+      }
+    }
+  ],
+  "version" : 2
+}

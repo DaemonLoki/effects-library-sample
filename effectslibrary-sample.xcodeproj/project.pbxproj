@@ -11,6 +11,7 @@
 		AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E5742840FDEF00F010A2 /* ContentView.swift */; };
 		AC18E5772840FDEF00F010A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5762840FDEF00F010A2 /* Assets.xcassets */; };
 		AC18E57A2840FDEF00F010A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5792840FDEF00F010A2 /* Preview Assets.xcassets */; };
+		AC18E58328410DCA00F010A2 /* NavigatableEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E58228410DCA00F010A2 /* NavigatableEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AC18E5742840FDEF00F010A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC18E5762840FDEF00F010A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC18E5792840FDEF00F010A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC18E58228410DCA00F010A2 /* NavigatableEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatableEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AC18E5722840FDEF00F010A2 /* effectslibrary_sampleApp.swift */,
 				AC18E5742840FDEF00F010A2 /* ContentView.swift */,
+				AC18E58228410DCA00F010A2 /* NavigatableEffect.swift */,
 				AC18E5762840FDEF00F010A2 /* Assets.xcassets */,
 				AC18E5782840FDEF00F010A2 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */,
+				AC18E58328410DCA00F010A2 /* NavigatableEffect.swift in Sources */,
 				AC18E5732840FDEF00F010A2 /* effectslibrary_sampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let effects: [NavigatableEffect] = [
+        NavigatableEffect(name: "Fireworks Effect", destination: Text("FireworksView")),
+        NavigatableEffect(name: "Confetti Effect", destination: Text("ConfettiView")),
+        NavigatableEffect(name: "Rain Effect", destination: Text("RainView")),
+        NavigatableEffect(name: "Snow Effect", destination: Text("SnowView")),
+        NavigatableEffect(name: "Fire Effect", destination: Text("FireView")),
+        NavigatableEffect(name: "Smoke Effect", destination: Text("SmokeView")),
+    ]
+    
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Fireworks Effect", destination: Text("FireworksView"))
+                ForEach(effects) { effect in
+                    NavigationLink(effect.name, destination: effect.destination)
+                }
             }
             .listStyle(.sidebar)
             .navigationTitle("EffectsLibrary")

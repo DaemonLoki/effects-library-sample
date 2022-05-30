@@ -10,6 +10,7 @@
 		AC03331D2844F24400724079 /* ConfettiContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03331C2844F24400724079 /* ConfettiContainer.swift */; };
 		AC03331F28451A8E00724079 /* FireContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03331E28451A8E00724079 /* FireContainer.swift */; };
 		AC03332128451EDA00724079 /* SmokeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03332028451EDA00724079 /* SmokeContainer.swift */; };
+		AC0333232845216A00724079 /* RainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0333222845216900724079 /* RainContainer.swift */; };
 		AC18E5732840FDEF00F010A2 /* effectslibrary_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E5722840FDEF00F010A2 /* effectslibrary_sampleApp.swift */; };
 		AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E5742840FDEF00F010A2 /* ContentView.swift */; };
 		AC18E5772840FDEF00F010A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5762840FDEF00F010A2 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		AC03331C2844F24400724079 /* ConfettiContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiContainer.swift; sourceTree = "<group>"; };
 		AC03331E28451A8E00724079 /* FireContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireContainer.swift; sourceTree = "<group>"; };
 		AC03332028451EDA00724079 /* SmokeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeContainer.swift; sourceTree = "<group>"; };
+		AC0333222845216900724079 /* RainContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainContainer.swift; sourceTree = "<group>"; };
 		AC18E56F2840FDEF00F010A2 /* effectslibrary-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "effectslibrary-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC18E5722840FDEF00F010A2 /* effectslibrary_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = effectslibrary_sampleApp.swift; sourceTree = "<group>"; };
 		AC18E5742840FDEF00F010A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				AC18E5742840FDEF00F010A2 /* ContentView.swift */,
 				ACEE13A7284123D500735D29 /* FireworksContainer.swift */,
 				AC18E58228410DCA00F010A2 /* NavigationEffect.swift */,
+				AC0333222845216900724079 /* RainContainer.swift */,
 				AC03332028451EDA00724079 /* SmokeContainer.swift */,
 				AC03331E28451A8E00724079 /* FireContainer.swift */,
 				AC03331C2844F24400724079 /* ConfettiContainer.swift */,
@@ -163,6 +166,7 @@
 				AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */,
 				AC18E58328410DCA00F010A2 /* NavigationEffect.swift in Sources */,
 				ACEE13A8284123D500735D29 /* FireworksContainer.swift in Sources */,
+				AC0333232845216A00724079 /* RainContainer.swift in Sources */,
 				AC18E5732840FDEF00F010A2 /* effectslibrary_sampleApp.swift in Sources */,
 				AC03331D2844F24400724079 /* ConfettiContainer.swift in Sources */,
 				AC03331F28451A8E00724079 /* FireContainer.swift in Sources */,

@@ -18,7 +18,7 @@ enum NavigationEffect: String, CaseIterable {
         case .confetti:
             ConfettiContainer()
         case .fire:
-            FireView()
+            FireContainer()
         case .smoke:
             SmokeView()
         case .rain:

@@ -20,7 +20,7 @@ enum NavigationEffect: String, CaseIterable {
         case .fire:
             FireContainer()
         case .smoke:
-            SmokeView()
+            SmokeContainer()
         case .rain:
             RainView()
         case .snow:

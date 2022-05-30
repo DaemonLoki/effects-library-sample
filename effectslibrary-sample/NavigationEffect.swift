@@ -22,9 +22,9 @@ enum NavigationEffect: String, CaseIterable {
         case .smoke:
             SmokeContainer()
         case .rain:
-            RainView()
+            RainContainer()
         case .snow:
-            SnowView()
+            SnowContainer()
         }
     }
     

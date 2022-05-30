@@ -13,6 +13,7 @@
 		AC18E57A2840FDEF00F010A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5792840FDEF00F010A2 /* Preview Assets.xcassets */; };
 		AC18E58328410DCA00F010A2 /* NavigationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E58228410DCA00F010A2 /* NavigationEffect.swift */; };
 		AC18E58628410FF600F010A2 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AC18E58528410FF600F010A2 /* EffectsLibrary */; };
+		ACEE13A8284123D500735D29 /* FireworksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE13A7284123D500735D29 /* FireworksContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC18E5762840FDEF00F010A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC18E5792840FDEF00F010A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC18E58228410DCA00F010A2 /* NavigationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEffect.swift; sourceTree = "<group>"; };
+		ACEE13A7284123D500735D29 /* FireworksContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				AC18E5722840FDEF00F010A2 /* effectslibrary_sampleApp.swift */,
 				AC18E5742840FDEF00F010A2 /* ContentView.swift */,
+				ACEE13A7284123D500735D29 /* FireworksContainer.swift */,
 				AC18E58228410DCA00F010A2 /* NavigationEffect.swift */,
 				AC18E5762840FDEF00F010A2 /* Assets.xcassets */,
 				AC18E5782840FDEF00F010A2 /* Preview Content */,
@@ -150,6 +153,7 @@
 			files = (
 				AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */,
 				AC18E58328410DCA00F010A2 /* NavigationEffect.swift in Sources */,
+				ACEE13A8284123D500735D29 /* FireworksContainer.swift in Sources */,
 				AC18E5732840FDEF00F010A2 /* effectslibrary_sampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

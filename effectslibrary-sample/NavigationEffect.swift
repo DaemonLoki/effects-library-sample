@@ -14,7 +14,7 @@ enum NavigationEffect: String, CaseIterable {
     @ViewBuilder func view() -> some View {
         switch self {
         case .fireworks:
-            FireworksView()
+            FireworksContainer()
         case .confetti:
             ConfettiView()
         case .fire:

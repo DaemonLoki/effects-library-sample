@@ -12,12 +12,12 @@
 		AC03332128451EDA00724079 /* SmokeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03332028451EDA00724079 /* SmokeContainer.swift */; };
 		AC0333232845216A00724079 /* RainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0333222845216900724079 /* RainContainer.swift */; };
 		AC0333252845247400724079 /* SnowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0333242845247400724079 /* SnowContainer.swift */; };
+		AC03332828465F6900724079 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AC03332728465F6900724079 /* EffectsLibrary */; };
 		AC18E5732840FDEF00F010A2 /* effectslibrary_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E5722840FDEF00F010A2 /* effectslibrary_sampleApp.swift */; };
 		AC18E5752840FDEF00F010A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E5742840FDEF00F010A2 /* ContentView.swift */; };
 		AC18E5772840FDEF00F010A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5762840FDEF00F010A2 /* Assets.xcassets */; };
 		AC18E57A2840FDEF00F010A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC18E5792840FDEF00F010A2 /* Preview Assets.xcassets */; };
 		AC18E58328410DCA00F010A2 /* NavigationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18E58228410DCA00F010A2 /* NavigationEffect.swift */; };
-		AC18E58628410FF600F010A2 /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AC18E58528410FF600F010A2 /* EffectsLibrary */; };
 		ACEE13A8284123D500735D29 /* FireworksContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE13A7284123D500735D29 /* FireworksContainer.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC18E58628410FF600F010A2 /* EffectsLibrary in Frameworks */,
+				AC03332828465F6900724079 /* EffectsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 			);
 			name = "effectslibrary-sample";
 			packageProductDependencies = (
-				AC18E58528410FF600F010A2 /* EffectsLibrary */,
+				AC03332728465F6900724079 /* EffectsLibrary */,
 			);
 			productName = "effectslibrary-sample";
 			productReference = AC18E56F2840FDEF00F010A2 /* effectslibrary-sample.app */;
@@ -138,7 +138,7 @@
 			);
 			mainGroup = AC18E5662840FDEF00F010A2;
 			packageReferences = (
-				AC18E58428410FF600F010A2 /* XCRemoteSwiftPackageReference "effects-library" */,
+				AC03332628465F6900724079 /* XCRemoteSwiftPackageReference "effects-library" */,
 			);
 			productRefGroup = AC18E5702840FDEF00F010A2 /* Products */;
 			projectDirPath = "";
@@ -377,20 +377,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AC18E58428410FF600F010A2 /* XCRemoteSwiftPackageReference "effects-library" */ = {
+		AC03332628465F6900724079 /* XCRemoteSwiftPackageReference "effects-library" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DaemonLoki/effects-library";
+			repositoryURL = "https://github.com/GetStream/effects-library";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC18E58528410FF600F010A2 /* EffectsLibrary */ = {
+		AC03332728465F6900724079 /* EffectsLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC18E58428410FF600F010A2 /* XCRemoteSwiftPackageReference "effects-library" */;
+			package = AC03332628465F6900724079 /* XCRemoteSwiftPackageReference "effects-library" */;
 			productName = EffectsLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */

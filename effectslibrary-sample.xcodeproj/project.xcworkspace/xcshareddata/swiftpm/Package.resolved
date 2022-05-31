@@ -3,10 +3,10 @@
     {
       "identity" : "effects-library",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DaemonLoki/effects-library",
+      "location" : "https://github.com/GetStream/effects-library",
       "state" : {
-        "branch" : "main",
-        "revision" : "32aaa9fc152b74f45d0eb41406e5922e5a566baf"
+        "revision" : "09ebd8e7536aa6dd70a48042244524e895ccd2aa",
+        "version" : "1.0.0"
       }
     }
   ],

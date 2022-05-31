@@ -23,4 +23,6 @@ If you want more information here is a list of useful resources:
 - Documentation
 - Tutorials
 
+# Sample advanced effects for the EffectsLibrary
+
 The library was created by [Stefan Blos](https://twitter.com/stefanjblos) and [Amos Gyamfi](https://twitter.com/amos_gyamfi) at [Stream](https://getstream.io). In case you want to contribute or just reach out to us you can do that on [Github](https://github.com/GetStream/effects-library) (with an issue, PR or similar) or Twitter.
